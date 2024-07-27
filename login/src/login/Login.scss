@@ -1,0 +1,245 @@
+$app-back-color:  #5769D4;
+$back-color:#3949AB;
+$text-color:  #FFFFFF;
+$place_holder:  #828282;
+$yet-color :  #7B7B7B;
+
+
+/* src/styles/_fonts.scss (or any main stylesheet) */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;600&display=swap');
+
+
+
+
+
+
+ body {
+    background-color: $app-back-color;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    font-family: 'Lato'
+
+}
+
+.main{
+    /*box-shadow: 0px 2px 30px 0px #0000004D;*/
+    width:1218px;
+    height: 743px;
+    top:168px;
+    position: relative;
+
+    display: flex;
+
+}
+
+
+
+.box1{
+    background: #3949AB;width: 732px; height: 743px; border-radius: 24px 0px 0px 24px; opacity: 0px;
+    color:white;
+}
+
+.logo{
+    background-image: url('./icons/logo.png') ;
+    top:51px;
+    left:50px;
+    width: 49px;
+    height: 49px;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+
+.imageRegistration{
+    background-image: url('./icons/Illustration.png');
+    top:137px;
+    left:205px;
+    width: 357px;
+    height: 358px;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+.texts{
+    position: absolute;
+top:488px;
+margin: 0px;
+width: 732px;
+}
+h1{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 48px;
+    text-align: center;
+    margin: 0px;
+}
+h2{
+    font-weight: 400;
+    line-height: 28px;
+    font-size: 14px;
+    text-align: center;
+    margin: 0px;
+}
+
+.box2{
+    background: #FFFFFF;width: 486px; height: 743px; border-radius: 0px 24px 24px 0px;  opacity: 0px;
+}
+
+.box2-title{
+
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+text-align: center;
+color: #3949AB;
+height: 232px;
+padding-top: 149px;
+box-sizing: border-box;
+
+}
+
+.email-icon{
+    background-image: url('./icons/email.png');
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+}
+
+.lock-icon{
+    background-image: url('./icons/lock.png');
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+}
+
+.eye-icon{
+    background-image: url('./icons/view.png');
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+}
+
+.box2-inputs{
+
+}
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  /* Login form */
+  .login-form {
+
+    width: 358px;
+  }
+  
+  /* Input group */
+  .input-group {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  /* Icons */
+  .icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #aaa;
+  }
+  
+  .icon-toggle {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #aaa;
+    cursor: pointer;
+  }
+  
+  /* Input fields */
+  .input-field {
+    width: 358px;
+    padding: 10px 1px 10px 36px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .input-field:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  /* Login button */
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: 
+    #3949AB;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #3949AB;
+  }
+
+  .free{
+    margin-top: 30px;
+  }
+
+  .socialButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:5px
+  }
+
+  .centers{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+  }
+  .or{
+display: flex;
+flex-direction: row;
+height: 17px;
+margin-top: 5px;
+margin-bottom: 5px;
+justify-content: center;
+align-items: center;
+gap: 2px;
+  }
+  .orRec{
+    width: 93.5px;
+    height: 1px;
+ background-color: #E6E9FA;
+  }
+  .orLabel{
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: left;
+    color: #828282;
+    
+  }
+  .havenoaccount{
+    font-family: Lato;
+font-size: 14px;
+font-weight: 600;
+line-height: 16.8px;
+text-align: left;
+color: #7B7B7B;
+margin-bottom: 20px;
+margin-top: 30px;
+  }
