@@ -4,7 +4,7 @@ const app = express();
 const cors = require('cors');
 app.use(cors());
 
-const OPENAI_API_KEY = 'sk-proj-BPuJq1HuiX3vWIuyvcDUT3BlbkFJtIDqCLUw4eWSmAUQ5sCJ';
+const OPENAI_API_KEY = 'sk-proj-aoE42ZiJqSPoxV0E21QhT3BlbkFJGXIuXqa4QSiVufvJ09K9';
 
 app.get('/getRandomText', async (req, res) => {
     try {
