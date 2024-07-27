@@ -4,7 +4,7 @@ const app = express();
 const cors = require('cors');
 app.use(cors());
 
-const KEY = 'remove secret';
+const MY = '';
 
 app.get('/getRandomText', async (req, res) => {
     try {
@@ -18,7 +18,7 @@ app.get('/getRandomText', async (req, res) => {
             },
             {
                 headers: {
-                    'Authorization': `Bearer ${KEY}`,
+                    'Authorization': `Bearer ${MY}`,
                     'Content-Type': 'application/json'
                 }
             }
