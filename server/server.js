@@ -4,7 +4,7 @@ const app = express();
 const cors = require('cors');
 app.use(cors());
 
-const OPENAI_API_KEY = 'remove secret';
+const KEY = 'remove secret';
 
 app.get('/getRandomText', async (req, res) => {
     try {
@@ -18,7 +18,7 @@ app.get('/getRandomText', async (req, res) => {
             },
             {
                 headers: {
-                    'Authorization': `Bearer ${OPENAI_API_KEY}`,
+                    'Authorization': `Bearer ${KEY}`,
                     'Content-Type': 'application/json'
                 }
             }
